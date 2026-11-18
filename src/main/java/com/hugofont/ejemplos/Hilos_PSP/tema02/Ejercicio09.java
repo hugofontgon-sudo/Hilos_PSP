@@ -168,7 +168,6 @@ public class Ejercicio09 {
             }
         }
 
-        // Ordenar por menor tiempo para mostrar la clasificación final
         cohetes.sort(Comparator.comparingDouble(Cohete::getTiempoSegundos));
 
         Ansi.cursorTo(19, 1);
